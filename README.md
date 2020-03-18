@@ -1,4 +1,4 @@
-# AttendanceConnect
+# Attendance Connect
 An attendance management app for teachers to mark students’ attendance using face recognition, schedule classes, post announcements, etc. Students can stay updated with their attendance status, schedule, etc. as updated by the teachers.
 
 Built on Xcode 9 and Swift 4.
