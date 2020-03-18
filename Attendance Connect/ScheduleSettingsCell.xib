@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ScheduleSettingsCell" id="Kx0-I9-QtS" customClass="ScheduleSettingsCell" customModule="Attendance_Connect" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Kx0-I9-QtS" id="bba-Bc-Pr5">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zpP-ws-dCl">
+                        <rect key="frame" x="16" y="35" width="30" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="5tG-58-mac"/>
+                            <constraint firstAttribute="height" constant="30" id="ats-Z1-1Ll"/>
+                        </constraints>
+                        <state key="normal" title="Button" image="done"/>
+                        <connections>
+                            <action selector="scheduledCheckButtonTapped:" destination="Kx0-I9-QtS" eventType="touchUpInside" id="Ulq-6g-vqB"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OZ7-AG-gl6">
+                        <rect key="frame" x="309" y="25" width="50" height="50"/>
+                        <color key="backgroundColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="fY5-pA-M4g"/>
+                            <constraint firstAttribute="width" constant="50" id="oGW-9b-6qg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                        <state key="normal" title="00">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=":" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OEV-RX-CTD">
+                        <rect key="frame" x="297" y="23.5" width="12" height="43"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="12" id="8dQ-tv-iP0"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tuu-EG-G8Q">
+                        <rect key="frame" x="247" y="25" width="50" height="50"/>
+                        <color key="backgroundColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="iHG-IO-YgS"/>
+                            <constraint firstAttribute="height" constant="50" id="rY1-NN-kGG"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                        <state key="normal" title="09">
+                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </state>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Monday" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ayp-yb-xz7">
+                        <rect key="frame" x="66" y="35" width="176" height="30"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Tuu-EG-G8Q" firstAttribute="centerY" secondItem="OZ7-AG-gl6" secondAttribute="centerY" id="D3n-3a-K85"/>
+                    <constraint firstItem="ayp-yb-xz7" firstAttribute="leading" secondItem="zpP-ws-dCl" secondAttribute="trailing" constant="20" id="DXm-wa-ldg"/>
+                    <constraint firstItem="OEV-RX-CTD" firstAttribute="leading" secondItem="Tuu-EG-G8Q" secondAttribute="trailing" id="Mrg-H6-In1"/>
+                    <constraint firstItem="zpP-ws-dCl" firstAttribute="centerY" secondItem="bba-Bc-Pr5" secondAttribute="centerY" id="Tjs-NK-eeF"/>
+                    <constraint firstItem="OEV-RX-CTD" firstAttribute="centerY" secondItem="OZ7-AG-gl6" secondAttribute="centerY" constant="-5" id="YSy-qM-y0f"/>
+                    <constraint firstItem="ayp-yb-xz7" firstAttribute="centerY" secondItem="bba-Bc-Pr5" secondAttribute="centerY" id="a3b-Oj-99e"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="OZ7-AG-gl6" secondAttribute="trailing" id="bq8-sz-LM6"/>
+                    <constraint firstItem="Tuu-EG-G8Q" firstAttribute="leading" secondItem="ayp-yb-xz7" secondAttribute="trailing" constant="5" id="cIb-XX-0Zl"/>
+                    <constraint firstItem="OZ7-AG-gl6" firstAttribute="leading" secondItem="OEV-RX-CTD" secondAttribute="trailing" id="hEH-6j-mec"/>
+                    <constraint firstItem="zpP-ws-dCl" firstAttribute="leading" secondItem="bba-Bc-Pr5" secondAttribute="leadingMargin" id="kFv-C5-xPk"/>
+                    <constraint firstItem="OZ7-AG-gl6" firstAttribute="centerY" secondItem="bba-Bc-Pr5" secondAttribute="centerY" id="uxf-cp-Ng5"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="dayLabel" destination="ayp-yb-xz7" id="3H6-jC-2Ra"/>
+                <outlet property="hoursButton" destination="Tuu-EG-G8Q" id="zdw-S8-TMk"/>
+                <outlet property="minutesLabel" destination="OZ7-AG-gl6" id="AhE-SK-4DF"/>
+                <outlet property="scheuledCheckButton" destination="zpP-ws-dCl" id="j6F-Mv-EwE"/>
+            </connections>
+            <point key="canvasLocation" x="-52" y="-154.72263868065968"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="done" width="512" height="512"/>
+    </resources>
+</document>

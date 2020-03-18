@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180508C1210113C100646B30 /* WhoRUViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180508C0210113C100646B30 /* WhoRUViewController.swift */; };
+		180508C3210119DA00646B30 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180508C2210119DA00646B30 /* LoginViewController.swift */; };
+		182294A221175B6300522BF3 /* TeacherRegisterationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182294A121175B6300522BF3 /* TeacherRegisterationViewController.swift */; };
+		1828BD66215CFAED00EF52A8 /* TodayScheduleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1828BD65215CFAED00EF52A8 /* TodayScheduleTableCell.xib */; };
+		1828BD68215CFB0D00EF52A8 /* TodayScheduleTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828BD67215CFB0D00EF52A8 /* TodayScheduleTableCell.swift */; };
+		1828BD6A215D5EB900EF52A8 /* JSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1828BD69215D5EB900EF52A8 /* JSONModel.swift */; };
+		183250CA210F5D7100846FA2 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183250C9210F5D7100846FA2 /* TodayViewController.swift */; };
+		183250CE210F5E0800846FA2 /* ClassesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183250CD210F5E0800846FA2 /* ClassesViewController.swift */; };
+		18337B17217728D600FDFFD5 /* CameraEnrolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18337B16217728D600FDFFD5 /* CameraEnrolViewController.swift */; };
+		18489EB7215643C000D85F55 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18489EB6215643C000D85F55 /* UIColorExtension.swift */; };
+		18489EB92156715000D85F55 /* ScheduleSettingsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18489EB82156715000D85F55 /* ScheduleSettingsCell.xib */; };
+		18489EBB2156768F00D85F55 /* ScheduleSettingsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18489EBA2156768F00D85F55 /* ScheduleSettingsCell.swift */; };
+		184E1AC420FFA84500BD9805 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E1AC320FFA84500BD9805 /* AppDelegate.swift */; };
+		184E1AC620FFA84500BD9805 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184E1AC520FFA84500BD9805 /* ViewController.swift */; };
+		184E1AC920FFA84500BD9805 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184E1AC720FFA84500BD9805 /* Main.storyboard */; };
+		184E1ACC20FFA84500BD9805 /* Attendance_Connect.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 184E1ACA20FFA84500BD9805 /* Attendance_Connect.xcdatamodeld */; };
+		184E1ACE20FFA84700BD9805 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 184E1ACD20FFA84700BD9805 /* Assets.xcassets */; };
+		184E1AD120FFA84700BD9805 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 184E1ACF20FFA84700BD9805 /* LaunchScreen.storyboard */; };
+		184F556321541228004DBF74 /* RegisterAttendanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184F556221541228004DBF74 /* RegisterAttendanceViewController.swift */; };
+		186156322157EA320083533A /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186156312157EA320083533A /* CameraViewController.swift */; };
+		18646DF22138F9D3000D7C9B /* NewAnnouncementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18646DF12138F9D3000D7C9B /* NewAnnouncementViewController.swift */; };
+		1868EAE421077B44004B4938 /* StudentRegisterationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868EAE321077B44004B4938 /* StudentRegisterationViewController.swift */; };
+		1868EAE621077B69004B4938 /* ModelsAndData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868EAE521077B69004B4938 /* ModelsAndData.swift */; };
+		1868EAE821078E18004B4938 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1868EAE721078E18004B4938 /* GoogleService-Info.plist */; };
+		1868EAEA2107B0E2004B4938 /* HelloUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868EAE92107B0E2004B4938 /* HelloUserViewController.swift */; };
+		18774EDD2110DECC001D15E4 /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18774EDC2110DECC001D15E4 /* OptionsViewController.swift */; };
+		18774EDF2110DEDB001D15E4 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18774EDE2110DEDB001D15E4 /* ProfileViewController.swift */; };
+		1882E35D21345474008FB455 /* AnnouncementExpandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1882E35C21345474008FB455 /* AnnouncementExpandViewController.swift */; };
+		18860D6E2422B28500096415 /* CameraEnrolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18860D6D2422B28500096415 /* CameraEnrolViewController.swift */; };
+		189CEF772128A12100CBA3D8 /* DetailedClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189CEF762128A12100CBA3D8 /* DetailedClassViewController.swift */; };
+		18A048802123EB3400B4E9D4 /* CodeDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A0487F2123EB3400B4E9D4 /* CodeDisplayViewController.swift */; };
+		18A16EC5212D8F4F009BD2AF /* AnnouncementCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18A16EC4212D8F4F009BD2AF /* AnnouncementCell.xib */; };
+		18A16EC7212D931A009BD2AF /* AnnouncementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A16EC6212D931A009BD2AF /* AnnouncementCell.swift */; };
+		18A7014921359C55007A73E5 /* MRCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7014321359C51007A73E5 /* MRCircularProgressView.m */; };
+		18A7014A21359C55007A73E5 /* MBCircularProgressBarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7014521359C52007A73E5 /* MBCircularProgressBarLayer.m */; };
+		18A7014B21359C55007A73E5 /* MBCircularProgressBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7014721359C54007A73E5 /* MBCircularProgressBarView.m */; };
+		18A7014D21359FC2007A73E5 /* AttendanceRecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A7014C21359FC2007A73E5 /* AttendanceRecordsViewController.swift */; };
+		18B8A48121187A2B001679A3 /* HelloTeacherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B8A48021187A2B001679A3 /* HelloTeacherViewController.swift */; };
+		18CAE26C215766E300D3EDFB /* ScanFaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAE26B215766E300D3EDFB /* ScanFaceViewController.swift */; };
+		18CAE26E215767CC00D3EDFB /* Swift+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CAE26D215767CC00D3EDFB /* Swift+Gif.swift */; };
+		18CAE27221578ED600D3EDFB /* ScanAnim.gif in Resources */ = {isa = PBXBuildFile; fileRef = 18CAE27121578ED400D3EDFB /* ScanAnim.gif */; };
+		18CF4C2421120ADE00478B48 /* ProcessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18CF4C2321120ADD00478B48 /* ProcessViewController.swift */; };
+		18DA1F80210A164500F3FCC9 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DA1F7F210A164500F3FCC9 /* TabBarViewController.swift */; };
+		18DAF25621528135007629D9 /* AttendanceMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DAF25521528135007629D9 /* AttendanceMethodViewController.swift */; };
+		18DAF2582152814F007629D9 /* AttendanceCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DAF2572152814F007629D9 /* AttendanceCodeViewController.swift */; };
+		18DC0CD02115601F0090A6BB /* JoinClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DC0CCF2115601F0090A6BB /* JoinClassViewController.swift */; };
+		18FBE11821202BA300255318 /* TabTeachersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBE11721202BA300255318 /* TabTeachersViewController.swift */; };
+		18FBE11A21202EB600255318 /* TodayTeachersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBE11921202EB600255318 /* TodayTeachersViewController.swift */; };
+		18FBE11C21202EC600255318 /* ProfileTeachersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBE11B21202EC600255318 /* ProfileTeachersViewController.swift */; };
+		18FBE11E21202ED500255318 /* OptionsTeachersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBE11D21202ED500255318 /* OptionsTeachersViewController.swift */; };
+		18FBE1202120812500255318 /* Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBE11F2120812500255318 /* Methods.swift */; };
+		18FBE12221209DAB00255318 /* NewClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBE12121209DAB00255318 /* NewClassViewController.swift */; };
+		18FBE1242120A09300255318 /* ClassesTeachersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18FBE1232120A09300255318 /* ClassesTeachersViewController.swift */; };
+		927FC30A421D3A94E7AE4741 /* Pods_Attendance_Connect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C8B365ABC9173B1847FF748 /* Pods_Attendance_Connect.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180508C0210113C100646B30 /* WhoRUViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhoRUViewController.swift; sourceTree = "<group>"; };
+		180508C2210119DA00646B30 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		182294A121175B6300522BF3 /* TeacherRegisterationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherRegisterationViewController.swift; sourceTree = "<group>"; };
+		1828BD65215CFAED00EF52A8 /* TodayScheduleTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodayScheduleTableCell.xib; sourceTree = "<group>"; };
+		1828BD67215CFB0D00EF52A8 /* TodayScheduleTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayScheduleTableCell.swift; sourceTree = "<group>"; };
+		1828BD69215D5EB900EF52A8 /* JSONModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONModel.swift; sourceTree = "<group>"; };
+		183250C9210F5D7100846FA2 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		183250CD210F5E0800846FA2 /* ClassesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassesViewController.swift; sourceTree = "<group>"; };
+		18337B16217728D600FDFFD5 /* CameraEnrolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraEnrolViewController.swift; sourceTree = SOURCE_ROOT; };
+		18489EB6215643C000D85F55 /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		18489EB82156715000D85F55 /* ScheduleSettingsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScheduleSettingsCell.xib; sourceTree = "<group>"; };
+		18489EBA2156768F00D85F55 /* ScheduleSettingsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleSettingsCell.swift; sourceTree = "<group>"; };
+		184E1AC020FFA84500BD9805 /* Attendance Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Attendance Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		184E1AC320FFA84500BD9805 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		184E1AC520FFA84500BD9805 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		184E1AC820FFA84500BD9805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		184E1ACB20FFA84500BD9805 /* Attendance_Connect.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Attendance_Connect.xcdatamodel; sourceTree = "<group>"; };
+		184E1ACD20FFA84700BD9805 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		184E1AD020FFA84700BD9805 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		184E1AD220FFA84700BD9805 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		184F556221541228004DBF74 /* RegisterAttendanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterAttendanceViewController.swift; sourceTree = "<group>"; };
+		186156312157EA320083533A /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		18646DF12138F9D3000D7C9B /* NewAnnouncementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewAnnouncementViewController.swift; sourceTree = "<group>"; };
+		1868EAE321077B44004B4938 /* StudentRegisterationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentRegisterationViewController.swift; sourceTree = "<group>"; };
+		1868EAE521077B69004B4938 /* ModelsAndData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelsAndData.swift; sourceTree = "<group>"; };
+		1868EAE721078E18004B4938 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1868EAE92107B0E2004B4938 /* HelloUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloUserViewController.swift; sourceTree = "<group>"; };
+		18774EDC2110DECC001D15E4 /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
+		18774EDE2110DEDB001D15E4 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1882E35C21345474008FB455 /* AnnouncementExpandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementExpandViewController.swift; sourceTree = "<group>"; };
+		18860D6D2422B28500096415 /* CameraEnrolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CameraEnrolViewController.swift; path = ../../../../../.Trash/CameraEnrolViewController.swift; sourceTree = "<group>"; };
+		189CEF762128A12100CBA3D8 /* DetailedClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedClassViewController.swift; sourceTree = "<group>"; };
+		18A0487F2123EB3400B4E9D4 /* CodeDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeDisplayViewController.swift; sourceTree = "<group>"; };
+		18A16EC4212D8F4F009BD2AF /* AnnouncementCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnnouncementCell.xib; sourceTree = "<group>"; };
+		18A16EC6212D931A009BD2AF /* AnnouncementCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementCell.swift; sourceTree = "<group>"; };
+		18A7014221359C50007A73E5 /* Attendance Connect-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Attendance Connect-Bridging-Header.h"; sourceTree = "<group>"; };
+		18A7014321359C51007A73E5 /* MRCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRCircularProgressView.m; sourceTree = "<group>"; };
+		18A7014421359C52007A73E5 /* MBCircularProgressBarLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCircularProgressBarLayer.h; sourceTree = "<group>"; };
+		18A7014521359C52007A73E5 /* MBCircularProgressBarLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCircularProgressBarLayer.m; sourceTree = "<group>"; };
+		18A7014621359C53007A73E5 /* MBCircularProgressBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBCircularProgressBarView.h; sourceTree = "<group>"; };
+		18A7014721359C54007A73E5 /* MBCircularProgressBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBCircularProgressBarView.m; sourceTree = "<group>"; };
+		18A7014821359C54007A73E5 /* MRCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRCircularProgressView.h; sourceTree = "<group>"; };
+		18A7014C21359FC2007A73E5 /* AttendanceRecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceRecordsViewController.swift; sourceTree = "<group>"; };
+		18B8A48021187A2B001679A3 /* HelloTeacherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloTeacherViewController.swift; sourceTree = "<group>"; };
+		18CAE26B215766E300D3EDFB /* ScanFaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanFaceViewController.swift; sourceTree = "<group>"; };
+		18CAE26D215767CC00D3EDFB /* Swift+Gif.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift+Gif.swift"; sourceTree = "<group>"; };
+		18CAE27121578ED400D3EDFB /* ScanAnim.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ScanAnim.gif; sourceTree = "<group>"; };
+		18CF4C2321120ADD00478B48 /* ProcessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProcessViewController.swift; sourceTree = "<group>"; };
+		18DA1F7F210A164500F3FCC9 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		18DAF25521528135007629D9 /* AttendanceMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceMethodViewController.swift; sourceTree = "<group>"; };
+		18DAF2572152814F007629D9 /* AttendanceCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttendanceCodeViewController.swift; sourceTree = "<group>"; };
+		18DC0CCF2115601F0090A6BB /* JoinClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinClassViewController.swift; sourceTree = "<group>"; };
+		18FBE11721202BA300255318 /* TabTeachersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabTeachersViewController.swift; sourceTree = "<group>"; };
+		18FBE11921202EB600255318 /* TodayTeachersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayTeachersViewController.swift; sourceTree = "<group>"; };
+		18FBE11B21202EC600255318 /* ProfileTeachersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTeachersViewController.swift; sourceTree = "<group>"; };
+		18FBE11D21202ED500255318 /* OptionsTeachersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsTeachersViewController.swift; sourceTree = "<group>"; };
+		18FBE11F2120812500255318 /* Methods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Methods.swift; sourceTree = "<group>"; };
+		18FBE12121209DAB00255318 /* NewClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewClassViewController.swift; sourceTree = "<group>"; };
+		18FBE1232120A09300255318 /* ClassesTeachersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassesTeachersViewController.swift; sourceTree = "<group>"; };
+		6C8B365ABC9173B1847FF748 /* Pods_Attendance_Connect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Attendance_Connect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9655362BB10B69F9AC74B97 /* Pods-Attendance Connect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Attendance Connect.release.xcconfig"; path = "Pods/Target Support Files/Pods-Attendance Connect/Pods-Attendance Connect.release.xcconfig"; sourceTree = "<group>"; };
+		DC51C8902C823AFBD5758DCA /* Pods-Attendance Connect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Attendance Connect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Attendance Connect/Pods-Attendance Connect.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		184E1ABD20FFA84500BD9805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				927FC30A421D3A94E7AE4741 /* Pods_Attendance_Connect.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09B97DF343FD5AC223E58B67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC51C8902C823AFBD5758DCA /* Pods-Attendance Connect.debug.xcconfig */,
+				B9655362BB10B69F9AC74B97 /* Pods-Attendance Connect.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		184E1AB720FFA84500BD9805 = {
+			isa = PBXGroup;
+			children = (
+				184E1AC220FFA84500BD9805 /* Attendance Connect */,
+				184E1AC120FFA84500BD9805 /* Products */,
+				09B97DF343FD5AC223E58B67 /* Pods */,
+				520B13BC10D2ED3ABF73CEE4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		184E1AC120FFA84500BD9805 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				184E1AC020FFA84500BD9805 /* Attendance Connect.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		184E1AC220FFA84500BD9805 /* Attendance Connect */ = {
+			isa = PBXGroup;
+			children = (
+				184E1AC320FFA84500BD9805 /* AppDelegate.swift */,
+				18489EB6215643C000D85F55 /* UIColorExtension.swift */,
+				18CF4C2321120ADD00478B48 /* ProcessViewController.swift */,
+				1868EAE521077B69004B4938 /* ModelsAndData.swift */,
+				18FBE11F2120812500255318 /* Methods.swift */,
+				184E1AC520FFA84500BD9805 /* ViewController.swift */,
+				180508C2210119DA00646B30 /* LoginViewController.swift */,
+				180508C0210113C100646B30 /* WhoRUViewController.swift */,
+				1868EAE321077B44004B4938 /* StudentRegisterationViewController.swift */,
+				182294A121175B6300522BF3 /* TeacherRegisterationViewController.swift */,
+				1868EAE92107B0E2004B4938 /* HelloUserViewController.swift */,
+				18B8A48021187A2B001679A3 /* HelloTeacherViewController.swift */,
+				18DA1F7F210A164500F3FCC9 /* TabBarViewController.swift */,
+				18860D6D2422B28500096415 /* CameraEnrolViewController.swift */,
+				18A7014C21359FC2007A73E5 /* AttendanceRecordsViewController.swift */,
+				184F556221541228004DBF74 /* RegisterAttendanceViewController.swift */,
+				183250C9210F5D7100846FA2 /* TodayViewController.swift */,
+				1882E35C21345474008FB455 /* AnnouncementExpandViewController.swift */,
+				183250CD210F5E0800846FA2 /* ClassesViewController.swift */,
+				18DC0CCF2115601F0090A6BB /* JoinClassViewController.swift */,
+				18774EDC2110DECC001D15E4 /* OptionsViewController.swift */,
+				18774EDE2110DEDB001D15E4 /* ProfileViewController.swift */,
+				18A16EC4212D8F4F009BD2AF /* AnnouncementCell.xib */,
+				18A16EC6212D931A009BD2AF /* AnnouncementCell.swift */,
+				184E1AC720FFA84500BD9805 /* Main.storyboard */,
+				18FBE11721202BA300255318 /* TabTeachersViewController.swift */,
+				18FBE11921202EB600255318 /* TodayTeachersViewController.swift */,
+				1828BD65215CFAED00EF52A8 /* TodayScheduleTableCell.xib */,
+				1828BD67215CFB0D00EF52A8 /* TodayScheduleTableCell.swift */,
+				18FBE1232120A09300255318 /* ClassesTeachersViewController.swift */,
+				189CEF762128A12100CBA3D8 /* DetailedClassViewController.swift */,
+				18489EB82156715000D85F55 /* ScheduleSettingsCell.xib */,
+				18489EBA2156768F00D85F55 /* ScheduleSettingsCell.swift */,
+				18646DF12138F9D3000D7C9B /* NewAnnouncementViewController.swift */,
+				18FBE11B21202EC600255318 /* ProfileTeachersViewController.swift */,
+				18FBE11D21202ED500255318 /* OptionsTeachersViewController.swift */,
+				18FBE12121209DAB00255318 /* NewClassViewController.swift */,
+				18A0487F2123EB3400B4E9D4 /* CodeDisplayViewController.swift */,
+				18DAF25521528135007629D9 /* AttendanceMethodViewController.swift */,
+				18DAF2572152814F007629D9 /* AttendanceCodeViewController.swift */,
+				18CAE26B215766E300D3EDFB /* ScanFaceViewController.swift */,
+				186156312157EA320083533A /* CameraViewController.swift */,
+				18337B16217728D600FDFFD5 /* CameraEnrolViewController.swift */,
+				1828BD69215D5EB900EF52A8 /* JSONModel.swift */,
+				18CAE26D215767CC00D3EDFB /* Swift+Gif.swift */,
+				18A7014421359C52007A73E5 /* MBCircularProgressBarLayer.h */,
+				18A7014521359C52007A73E5 /* MBCircularProgressBarLayer.m */,
+				18A7014621359C53007A73E5 /* MBCircularProgressBarView.h */,
+				18A7014721359C54007A73E5 /* MBCircularProgressBarView.m */,
+				18A7014821359C54007A73E5 /* MRCircularProgressView.h */,
+				18A7014321359C51007A73E5 /* MRCircularProgressView.m */,
+				184E1ACD20FFA84700BD9805 /* Assets.xcassets */,
+				18CAE27121578ED400D3EDFB /* ScanAnim.gif */,
+				184E1ACF20FFA84700BD9805 /* LaunchScreen.storyboard */,
+				184E1AD220FFA84700BD9805 /* Info.plist */,
+				1868EAE721078E18004B4938 /* GoogleService-Info.plist */,
+				184E1ACA20FFA84500BD9805 /* Attendance_Connect.xcdatamodeld */,
+				18A7014221359C50007A73E5 /* Attendance Connect-Bridging-Header.h */,
+			);
+			path = "Attendance Connect";
+			sourceTree = "<group>";
+		};
+		520B13BC10D2ED3ABF73CEE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C8B365ABC9173B1847FF748 /* Pods_Attendance_Connect.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		184E1ABF20FFA84500BD9805 /* Attendance Connect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 184E1AD520FFA84700BD9805 /* Build configuration list for PBXNativeTarget "Attendance Connect" */;
+			buildPhases = (
+				8EFF969B71ED81907734939E /* [CP] Check Pods Manifest.lock */,
+				184E1ABC20FFA84500BD9805 /* Sources */,
+				184E1ABD20FFA84500BD9805 /* Frameworks */,
+				184E1ABE20FFA84500BD9805 /* Resources */,
+				6D66D8726BDF11AB989BBA39 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Attendance Connect";
+			productName = "Attendance Connect";
+			productReference = 184E1AC020FFA84500BD9805 /* Attendance Connect.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		184E1AB820FFA84500BD9805 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Neel Makhecha";
+				TargetAttributes = {
+					184E1ABF20FFA84500BD9805 = {
+						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
+					};
+				};
+			};
+			buildConfigurationList = 184E1ABB20FFA84500BD9805 /* Build configuration list for PBXProject "Attendance Connect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 184E1AB720FFA84500BD9805;
+			productRefGroup = 184E1AC120FFA84500BD9805 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				184E1ABF20FFA84500BD9805 /* Attendance Connect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		184E1ABE20FFA84500BD9805 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18A16EC5212D8F4F009BD2AF /* AnnouncementCell.xib in Resources */,
+				1828BD66215CFAED00EF52A8 /* TodayScheduleTableCell.xib in Resources */,
+				184E1AD120FFA84700BD9805 /* LaunchScreen.storyboard in Resources */,
+				1868EAE821078E18004B4938 /* GoogleService-Info.plist in Resources */,
+				184E1ACE20FFA84700BD9805 /* Assets.xcassets in Resources */,
+				184E1AC920FFA84500BD9805 /* Main.storyboard in Resources */,
+				18CAE27221578ED600D3EDFB /* ScanAnim.gif in Resources */,
+				18489EB92156715000D85F55 /* ScheduleSettingsCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D66D8726BDF11AB989BBA39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Attendance Connect/Pods-Attendance Connect-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Attendance Connect/Pods-Attendance Connect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EFF969B71ED81907734939E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Attendance Connect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		184E1ABC20FFA84500BD9805 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180508C1210113C100646B30 /* WhoRUViewController.swift in Sources */,
+				18A048802123EB3400B4E9D4 /* CodeDisplayViewController.swift in Sources */,
+				184E1AC620FFA84500BD9805 /* ViewController.swift in Sources */,
+				18489EBB2156768F00D85F55 /* ScheduleSettingsCell.swift in Sources */,
+				1882E35D21345474008FB455 /* AnnouncementExpandViewController.swift in Sources */,
+				18860D6E2422B28500096415 /* CameraEnrolViewController.swift in Sources */,
+				18FBE1242120A09300255318 /* ClassesTeachersViewController.swift in Sources */,
+				18337B17217728D600FDFFD5 /* CameraEnrolViewController.swift in Sources */,
+				18DC0CD02115601F0090A6BB /* JoinClassViewController.swift in Sources */,
+				18A7014B21359C55007A73E5 /* MBCircularProgressBarView.m in Sources */,
+				18FBE11821202BA300255318 /* TabTeachersViewController.swift in Sources */,
+				1828BD6A215D5EB900EF52A8 /* JSONModel.swift in Sources */,
+				18489EB7215643C000D85F55 /* UIColorExtension.swift in Sources */,
+				18A7014D21359FC2007A73E5 /* AttendanceRecordsViewController.swift in Sources */,
+				183250CA210F5D7100846FA2 /* TodayViewController.swift in Sources */,
+				18FBE11C21202EC600255318 /* ProfileTeachersViewController.swift in Sources */,
+				1868EAEA2107B0E2004B4938 /* HelloUserViewController.swift in Sources */,
+				18FBE12221209DAB00255318 /* NewClassViewController.swift in Sources */,
+				18B8A48121187A2B001679A3 /* HelloTeacherViewController.swift in Sources */,
+				184E1ACC20FFA84500BD9805 /* Attendance_Connect.xcdatamodeld in Sources */,
+				18DA1F80210A164500F3FCC9 /* TabBarViewController.swift in Sources */,
+				184F556321541228004DBF74 /* RegisterAttendanceViewController.swift in Sources */,
+				183250CE210F5E0800846FA2 /* ClassesViewController.swift in Sources */,
+				18A7014921359C55007A73E5 /* MRCircularProgressView.m in Sources */,
+				18A7014A21359C55007A73E5 /* MBCircularProgressBarLayer.m in Sources */,
+				180508C3210119DA00646B30 /* LoginViewController.swift in Sources */,
+				186156322157EA320083533A /* CameraViewController.swift in Sources */,
+				189CEF772128A12100CBA3D8 /* DetailedClassViewController.swift in Sources */,
+				18CAE26E215767CC00D3EDFB /* Swift+Gif.swift in Sources */,
+				18CF4C2421120ADE00478B48 /* ProcessViewController.swift in Sources */,
+				1828BD68215CFB0D00EF52A8 /* TodayScheduleTableCell.swift in Sources */,
+				18DAF25621528135007629D9 /* AttendanceMethodViewController.swift in Sources */,
+				18646DF22138F9D3000D7C9B /* NewAnnouncementViewController.swift in Sources */,
+				184E1AC420FFA84500BD9805 /* AppDelegate.swift in Sources */,
+				18774EDD2110DECC001D15E4 /* OptionsViewController.swift in Sources */,
+				18774EDF2110DEDB001D15E4 /* ProfileViewController.swift in Sources */,
+				1868EAE621077B69004B4938 /* ModelsAndData.swift in Sources */,
+				182294A221175B6300522BF3 /* TeacherRegisterationViewController.swift in Sources */,
+				18FBE1202120812500255318 /* Methods.swift in Sources */,
+				18FBE11A21202EB600255318 /* TodayTeachersViewController.swift in Sources */,
+				18FBE11E21202ED500255318 /* OptionsTeachersViewController.swift in Sources */,
+				18CAE26C215766E300D3EDFB /* ScanFaceViewController.swift in Sources */,
+				18A16EC7212D931A009BD2AF /* AnnouncementCell.swift in Sources */,
+				1868EAE421077B44004B4938 /* StudentRegisterationViewController.swift in Sources */,
+				18DAF2582152814F007629D9 /* AttendanceCodeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		184E1AC720FFA84500BD9805 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184E1AC820FFA84500BD9805 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		184E1ACF20FFA84700BD9805 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				184E1AD020FFA84700BD9805 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		184E1AD320FFA84700BD9805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		184E1AD420FFA84700BD9805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		184E1AD620FFA84700BD9805 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC51C8902C823AFBD5758DCA /* Pods-Attendance Connect.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HVBAS84WPA;
+				INFOPLIST_FILE = "Attendance Connect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neelmakhecha.Attendance-Connect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Attendance Connect/Attendance Connect-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		184E1AD720FFA84700BD9805 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9655362BB10B69F9AC74B97 /* Pods-Attendance Connect.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HVBAS84WPA;
+				INFOPLIST_FILE = "Attendance Connect/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.neelmakhecha.Attendance-Connect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Attendance Connect/Attendance Connect-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		184E1ABB20FFA84500BD9805 /* Build configuration list for PBXProject "Attendance Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184E1AD320FFA84700BD9805 /* Debug */,
+				184E1AD420FFA84700BD9805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		184E1AD520FFA84700BD9805 /* Build configuration list for PBXNativeTarget "Attendance Connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				184E1AD620FFA84700BD9805 /* Debug */,
+				184E1AD720FFA84700BD9805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		184E1ACA20FFA84500BD9805 /* Attendance_Connect.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				184E1ACB20FFA84500BD9805 /* Attendance_Connect.xcdatamodel */,
+			);
+			currentVersion = 184E1ACB20FFA84500BD9805 /* Attendance_Connect.xcdatamodel */;
+			path = Attendance_Connect.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 184E1AB820FFA84500BD9805 /* Project object */;
+}

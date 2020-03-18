@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5Zk-V6-Loq">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="2Rn-sX-H7f">
+            <objects>
+                <viewController id="5Zk-V6-Loq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wUy-ug-SRU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© Neel Makhecha. All Rights Reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l2G-fa-iAc">
+                                <rect key="frame" x="0.0" y="645" width="375" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Designed &amp; Developed by Neel Makhecha" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Vw-AD-kkd">
+                                <rect key="frame" x="0.0" y="633" width="375" height="12"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Attendance" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xU2-eN-l3J">
+                                <rect key="frame" x="41" y="313.5" width="293" height="60"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="50"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CONNECT" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nPH-Kb-0E3">
+                                <rect key="frame" x="99.5" y="378.5" width="176.5" height="48"/>
+                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="687-6m-1ej">
+                                <rect key="frame" x="123.5" y="175.5" width="128" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="Oqh-ti-WXV"/>
+                                    <constraint firstAttribute="width" constant="128" id="QIM-tk-zaP"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="687-6m-1ej" firstAttribute="centerX" secondItem="N6E-JR-U36" secondAttribute="centerX" id="4E6-H3-NHT"/>
+                            <constraint firstItem="N6E-JR-U36" firstAttribute="trailing" secondItem="4Vw-AD-kkd" secondAttribute="trailing" id="6Sr-vp-Mre"/>
+                            <constraint firstItem="nPH-Kb-0E3" firstAttribute="top" secondItem="xU2-eN-l3J" secondAttribute="bottom" constant="5" id="JSn-Q2-abH"/>
+                            <constraint firstItem="nPH-Kb-0E3" firstAttribute="centerX" secondItem="xU2-eN-l3J" secondAttribute="centerX" id="MeC-M6-d1X"/>
+                            <constraint firstItem="4Vw-AD-kkd" firstAttribute="leading" secondItem="N6E-JR-U36" secondAttribute="leading" id="MlJ-ze-zGW"/>
+                            <constraint firstItem="l2G-fa-iAc" firstAttribute="top" secondItem="4Vw-AD-kkd" secondAttribute="bottom" id="bb7-lT-JhV"/>
+                            <constraint firstItem="xU2-eN-l3J" firstAttribute="centerX" secondItem="N6E-JR-U36" secondAttribute="centerX" id="cCJ-Jq-g8g"/>
+                            <constraint firstItem="l2G-fa-iAc" firstAttribute="leading" secondItem="N6E-JR-U36" secondAttribute="leading" id="gu5-BY-5xS"/>
+                            <constraint firstItem="xU2-eN-l3J" firstAttribute="centerY" secondItem="N6E-JR-U36" secondAttribute="centerY" id="j3U-Yy-4Ll"/>
+                            <constraint firstItem="xU2-eN-l3J" firstAttribute="top" secondItem="687-6m-1ej" secondAttribute="bottom" constant="10" id="rDf-Gl-waf"/>
+                            <constraint firstItem="N6E-JR-U36" firstAttribute="trailing" secondItem="l2G-fa-iAc" secondAttribute="trailing" id="x1r-A5-B0T"/>
+                            <constraint firstItem="N6E-JR-U36" firstAttribute="bottom" secondItem="l2G-fa-iAc" secondAttribute="bottom" constant="10" id="zU6-xC-Fmv"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="N6E-JR-U36"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pez-bl-2QJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo" width="392.17022705078125" height="392.17022705078125"/>
+    </resources>
+</document>

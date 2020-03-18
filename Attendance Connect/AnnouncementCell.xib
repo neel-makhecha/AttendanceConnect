@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="AnnouncementCell" rowHeight="200" id="jmg-qc-knA" customClass="AnnouncementCell" customModule="Attendance_Connect" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jmg-qc-knA" id="Tvm-iz-cHR">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="199.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prof. Albert Mathew" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pWx-I3-aQz">
+                        <rect key="frame" x="16" y="53" width="137" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get Ready with your Presentations Tomorrow" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ztt-yZ-SKf">
+                        <rect key="frame" x="16" y="10" width="343" height="43"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cjo-Pw-Xpp">
+                        <rect key="frame" x="32" y="76" width="311" height="101.5"/>
+                        <string key="text">All the students has to get ready with your presentation and a working demo of your project. It's ok if the demo is of just 25% of your project. No one should remain absent tomorrow.</string>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nov 23, 2017" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IkJ-8c-tN5">
+                        <rect key="frame" x="280" y="179.5" width="90" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.66422420739999999" green="0.66424006219999998" blue="0.66423153879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Cjo-Pw-Xpp" firstAttribute="top" secondItem="pWx-I3-aQz" secondAttribute="bottom" constant="5" id="5SF-pM-8fs"/>
+                    <constraint firstItem="pWx-I3-aQz" firstAttribute="leading" secondItem="Tvm-iz-cHR" secondAttribute="leadingMargin" id="Fde-EC-uUd"/>
+                    <constraint firstItem="Cjo-Pw-Xpp" firstAttribute="leading" secondItem="Tvm-iz-cHR" secondAttribute="leadingMargin" constant="16" id="LQv-Gy-m7J"/>
+                    <constraint firstAttribute="trailing" secondItem="IkJ-8c-tN5" secondAttribute="trailing" constant="5" id="NQ0-gB-x4h"/>
+                    <constraint firstAttribute="trailing" secondItem="ztt-yZ-SKf" secondAttribute="trailing" constant="16" id="OuE-oU-Pol"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Cjo-Pw-Xpp" secondAttribute="trailing" constant="16" id="UfP-rK-G6T"/>
+                    <constraint firstAttribute="bottom" secondItem="IkJ-8c-tN5" secondAttribute="bottom" constant="2" id="WeA-wy-d7P"/>
+                    <constraint firstItem="ztt-yZ-SKf" firstAttribute="top" secondItem="Tvm-iz-cHR" secondAttribute="top" constant="10" id="aai-nu-aPg"/>
+                    <constraint firstItem="ztt-yZ-SKf" firstAttribute="leading" secondItem="Tvm-iz-cHR" secondAttribute="leading" constant="16" id="e8X-7b-Ebe"/>
+                    <constraint firstItem="pWx-I3-aQz" firstAttribute="top" secondItem="ztt-yZ-SKf" secondAttribute="bottom" id="jtn-tF-yCW"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="contentLabel" destination="Cjo-Pw-Xpp" id="T6U-8u-At2"/>
+                <outlet property="dateLabel" destination="IkJ-8c-tN5" id="wAq-jS-bqk"/>
+                <outlet property="teacherLabel" destination="pWx-I3-aQz" id="ygI-b4-xek"/>
+                <outlet property="titleLabel" destination="ztt-yZ-SKf" id="BZE-yA-4Et"/>
+            </connections>
+            <point key="canvasLocation" x="7.2000000000000002" y="-102.54872563718142"/>
+        </tableViewCell>
+    </objects>
+</document>

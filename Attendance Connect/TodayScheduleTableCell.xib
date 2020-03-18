@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TodayScheduleCell" rowHeight="70" id="5gI-GN-8T4" customClass="TodayScheduleTableCell" customModule="Attendance_Connect" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5gI-GN-8T4" id="gpb-Q1-QVP">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="69.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Geology" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PhQ-W4-Mxf">
+                        <rect key="frame" x="16" y="11.5" width="84" height="26.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="By Prof. Andrew" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oW7-J9-rUM">
+                        <rect key="frame" x="16" y="43" width="103.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="At 9:10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aNU-qM-CvG">
+                        <rect key="frame" x="305" y="14.5" width="54" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="aNU-qM-CvG" secondAttribute="trailing" id="B2K-OF-7DP"/>
+                    <constraint firstItem="oW7-J9-rUM" firstAttribute="top" secondItem="PhQ-W4-Mxf" secondAttribute="bottom" constant="5" id="ESO-8Y-dre"/>
+                    <constraint firstItem="PhQ-W4-Mxf" firstAttribute="leading" secondItem="gpb-Q1-QVP" secondAttribute="leadingMargin" id="J3o-6P-csG"/>
+                    <constraint firstItem="PhQ-W4-Mxf" firstAttribute="centerY" secondItem="gpb-Q1-QVP" secondAttribute="centerY" constant="-10" id="JeU-k8-0SZ"/>
+                    <constraint firstItem="aNU-qM-CvG" firstAttribute="centerY" secondItem="PhQ-W4-Mxf" secondAttribute="centerY" id="jzg-ix-XaQ"/>
+                    <constraint firstItem="oW7-J9-rUM" firstAttribute="leading" secondItem="gpb-Q1-QVP" secondAttribute="leadingMargin" id="pWC-Os-tMP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="facultyOrClassName" destination="oW7-J9-rUM" id="Kry-1C-IYc"/>
+                <outlet property="subjectNameLabel" destination="PhQ-W4-Mxf" id="1nj-i8-CqW"/>
+                <outlet property="timeLabel" destination="aNU-qM-CvG" id="N6c-R8-3rH"/>
+            </connections>
+            <point key="canvasLocation" x="53.600000000000001" y="119.64017991004499"/>
+        </tableViewCell>
+    </objects>
+</document>
