@@ -12,3 +12,5 @@ Check out all the features below...
 ![Classes & Schedules](https://raw.githubusercontent.com/neel-makhecha/AttendanceConnect/master/Readme_Images/5.jpg)
 ![Announcements](https://raw.githubusercontent.com/neel-makhecha/AttendanceConnect/master/Readme_Images/6.jpg)
 ![Managing Profiles & Records](https://raw.githubusercontent.com/neel-makhecha/AttendanceConnect/master/Readme_Images/7.jpg)
+
+Read the paper on Attendance Connect, published on the International Journal of Engineering and Advanced Technology: [Download Here](https://www.ijeat.org/wp-content/uploads/papers/v9i3/C4747029320.pdf)
