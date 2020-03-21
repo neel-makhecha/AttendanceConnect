@@ -13,8 +13,8 @@ import SwiftyJSON
 
 class CameraViewController: UIViewController {
     
-    var app_id = "694433c9"
-    var app_key = "225012fd98d7717fc1379f63271d367c"
+    var app_id = "" //Place your app_id here
+    var app_key = "" //Place your app_key here
 
     
     var captureSession:AVCaptureSession?
